@@ -1,0 +1,4 @@
+Function CheckForComment(p As Range)
+  Application.Volatile True
+  CheckForComment = Not p.Comment Is Nothing
+End Function
